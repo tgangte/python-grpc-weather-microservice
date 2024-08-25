@@ -11,6 +11,19 @@ This code demonstrates GRPC in python in its simplest form, while making sense o
 5. The server receives the request from the client, in this case the RequestWeather string is "Mountain View, CA", and the server does its job, making a external REST API call to get the real time weather info.
 6. Server sends the ResponseWeather, also a string, back to the client.
 
+Run the Server
+```
+python weather-server.py 
+Server started, listening on 50051
+```
+Run the client
+```
+$ python weather-client.py 
+Making call to weather-server over grpc...
+Weather data for Mountain View, CA, USA received: The weather is 77.0!
+```
+   
+
 ## How to setup
 1. Install required modules from requirements.txt
 2. Run the compile-proto.sh which will read the .proto file and generate codes under generated directory.
