@@ -25,6 +25,6 @@ Weather data for Mountain View, CA, USA received: The weather is 77.0!
    
 
 ## How to setup
-1. Install required modules from requirements.txt
+1. Install required modules from requirements.txt by runing ./setup.sh 
 2. Run the compile-proto.sh which will read the .proto file and generate codes under generated directory.
 3. Run server and the client. 
