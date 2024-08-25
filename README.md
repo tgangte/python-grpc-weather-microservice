@@ -1,7 +1,7 @@
 # python-grpc-weather-microservice
 This is a simple client-server microservice that demonstrates GRPC using python  
 ## Introduction
-This code demonstrates GRPC in python in its simplest form, while making sense of how it can be used. 
+This code demonstrates GRPC in python in its simplest form, while making sense of how it can be used. Here, we use it in a microservice architecure. 
 
 ## How it works
 1. The server listens on port 50051 on GRPC protocol.
