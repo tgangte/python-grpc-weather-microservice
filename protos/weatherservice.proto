@@ -1,0 +1,12 @@
+syntax = "proto3" ;
+
+service weatherservice {
+    rpc GetWeather (RequestWeather) returns (ResponseWeather) {}
+}
+
+message RequestWeather {
+    string cityname = 1 ;
+}
+ message ResponseWeather {
+    string message = 1 ;
+ }
